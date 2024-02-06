@@ -225,14 +225,14 @@
            <form action="https://api.web3forms.com/submit" method="POST" rel="noorener noreferrer">
                 <input type="hidden" name="access_key" value="91d34f1b-a825-4369-94fa-d69b9fbe6d2f">
                 <div class="input-box">
-                    <input type="text" name="Full Name" placeholder="Full Name">
-                    <input type="email" name="Email" placeholder="Email">
+                    <input type="text" name="Full Name" placeholder="Full Name *" required oninvalid="this.setCustomValidity('Enter Name!')" oninput="this.setCustomValidity('')">
+                    <input type="email" name="Email" placeholder="Email *" required oninvalid="this.setCustomValidity('Enter Email!')" oninput="this.setCustomValidity('')">
                 </div>
                 <div class="input-box">
                     <input type="number" name="MobileNo" placeholder="Mobile Number">
-                    <input type="text" name="Subject" placeholder="Email Subject">
+                    <input type="text" name="Subject" placeholder="Subject *" required oninvalid="this.setCustomValidity('Enter Subject!')" oninput="this.setCustomValidity('')">
                 </div>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </form>
             
