@@ -31,6 +31,9 @@ p{
     font-size: 20px;
     margin-bottom: 20px;
 }
+a{
+    text-decoration: none;
+}
 
 .sign{
     font-style: italic;
@@ -40,8 +43,6 @@ p{
 .btn{
     font-style: normal;
     padding: 5px;
-    width: 9%;
-    
     font-weight: 300;
     font-size: large;
     background: #09d5e4;
